@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AWTY"
         tools:targetApi="31">
+        <service
+            android:name=".MessageService"
+            android:enabled="true"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
