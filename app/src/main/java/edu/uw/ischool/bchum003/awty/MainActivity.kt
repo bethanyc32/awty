@@ -76,7 +76,6 @@ class MainActivity : AppCompatActivity() {
         val alarmManager : AlarmManager = getSystemService(Context.ALARM_SERVICE) as AlarmManager
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, System.currentTimeMillis(),
             (nagTime.text.toString().toInt() * 1000).toLong(), pendingIntent)
-        Log.i
     }
     //(nagTime.text.toString().toInt() * 60000)
 }
